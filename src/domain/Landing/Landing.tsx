@@ -1,5 +1,9 @@
+import { Outlet } from "react-router-dom";
+
 const Landing = () => {
-  return <div>Landing</div>;
+  return <div>
+    <Outlet/>
+  </div>;
 };
 
 export default Landing;
